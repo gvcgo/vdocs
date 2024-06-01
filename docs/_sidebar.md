@@ -4,5 +4,5 @@
 * [SDK list](sdklist "SDKs supported by Version Manager")
 * [Data flow](flow "Version Manager Data Flow")
 * [Usage](usage "How to use Version Manager")
-* [FAQs](/faq "Version Manager FAQs")
+* [FAQs](faq "Version Manager FAQs")
 * [Gallery](gallery "Version Manager Gallery")
