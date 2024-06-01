@@ -3,8 +3,8 @@
 <!-- https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install.png -->
 ![vmr_flow.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_flow.png)
 
-- [collector](https://github.com/gvcgo/vcollector) 收集版本信息并上传到 **resources** 仓库。
-- [resources](https://github.com/gvcgo/vsources) 存储版本信息。
+- [vcollector](https://github.com/gvcgo/vcollector) 收集版本信息并上传到 **resources** 仓库。
+- [vsources](https://github.com/gvcgo/vsources) 存储版本信息。
 - [vmr](https://github.com/gvcgo/version-manager) 用户界面。
 
 **vcollector**部署在远程服务器上, 会定时从官网获取最新的版本列表。这部分用户无需关心。
