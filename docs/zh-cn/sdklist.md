@@ -1,0 +1,63 @@
+# 编程语言
+
+- [Node.js](https://nodejs.org/en)
+- [Bun.js](https://bun.sh)
+- [Deno.js](https://deno.com)
+- [Go](https://go.dev)
+- [Java(JDK)](https://adoptium.net)
+- [Python](https://anaconda.org/conda-forge/python/files)
+- [PyPy](https://anaconda.org/conda-forge/pypy/files)
+- [PHP](https://github.com/pmmp/PHP-Binaries)
+- [Kotlin](https://kotlinlang.org/)
+- [Scala](https://www.scala-lang.org )
+- [Flutter(Dart)](https://flutter.dev)
+- [.Net](https://dotnet.microsoft.com)
+- [Rust](https://www.rust-lang.org)
+- [Zig](https://ziglang.org)
+- [Typst](https://typst.app)
+- [V](https://vlang.io)
+- [Gleam](https://gleam.run)
+- [Odin](https://odin-lang.org)
+- [Julia](https://julialang.org)
+- [Groovy](https://www.groovy-lang.org)
+- [Dlang](https://dlang.org)
+- [Android-build-tools](https://developer.android.com/tools/releases/build-tools?hl=en)
+- [Android-cmdline-tools](https://developer.android.google.cn/tools/releases/cmdline-tools)
+- [Android-platforms](https://developer.android.com/studio)
+- [Android-system-images](https://developer.android.google.cn/topic/generic-system-image/releases)
+
+# 编辑器
+
+- [VSCode](https://code.visualstudio.com)
+- [Neovim](https://neovim.io )
+
+# Neovim插件
+
+- [tree-sitter](https://tree-sitter.github.io/tree-sitter)
+- [fd](https://github.com/sharkdp/fd)
+- [fzf](https://github.com/junegunn/fzf)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+# 编程工具
+- [Maven](https://maven.apache.org )
+- [Gradle](https://gradle.org)
+- [Rustup](https://rustup.rs )
+- [Cygwin-installer](https://www.cygwin.com)
+- [Msys2-installer](https://www.msys2.org)
+- [Miniconda](https://docs.anaconda.com/free/miniconda/index.html)
+- [Coursier](https://get-coursier.io)
+- [Git-for-Windows](https://gitforwindows.org)
+- [Lazygit](https://github.com/jesseduffield/lazygit)
+- [Typst-preview](https://github.com/Enter-tainer/typst-preview)
+- [Protobuf(protoc)](https://protobuf.dev)
+- [Kubectl](https://kubernetes.io/docs/tasks/tools)
+- [Gsudo](https://gerardog.github.io/gsudo)
+- [UPX](https://github.com/upx/upx)
+- [Vhs](https://github.com/charmbracelet/vhs)
+- [Asciinema](https://github.com/gvcgo/asciinema)
+
+# Language Server Protocol(LSP)
+- [Zls](https://github.com/zigtools/zls)
+- [V-analyzer](https://github.com/v-analyzer/v-analyzer)
+- [Typst-lsp](https://github.com/nvarner/typst-lsp)
+- [Serve-d](https://github.com/Pure-D/serve-d)
