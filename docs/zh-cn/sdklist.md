@@ -18,6 +18,7 @@
 - [kotlin](https://kotlinlang.org/)
 - [lfortran](https://lfortran.org/)
 - [lua](https://www.lua.org/)
+- [nim](https://nim-lang.org/)
 - [node](https://nodejs.org/en)
 - [odin](http://odin-lang.org/)
 - [perl](https://www.perl.org/)
@@ -62,6 +63,7 @@
 
 # 工具
 - [acast](https://asciinema.org/)
+- [agg](https://github.com/asciinema/agg)
 - [cmake](https://cmake.org/)
 - [git-win](https://git-scm.com/)
 - [gsudo](https://gerardog.github.io/gsudo/)
