@@ -11,7 +11,7 @@
 
 ### 3. 为什么下载失败？
 
-请检查是否设置了反向代理(reverse proxy)。
+请检查是否设置了反向代理(reverse proxy)。如果添加了反向代理，获取**SDK列表**时仍然比较慢，你也可以在vmr的配置文件中设置**VersionHostUrl**为**https://gitee.com/moqsien/vsources/raw/main**。
 
 ### 4. 下载源安全吗？
 
@@ -24,4 +24,4 @@
 
 ### 6. 什么是反向代理？
 
-**https://gvc.1710717.xyz/proxy/** 是一个部署在CloudFlare上的反向转发代理，主要用于加速github的国内访问。但是限制了只能访问VMR相关的内容。完全免费。
+**https://gvc.1710717.xyz/proxy/** 是一个部署在CloudFlare上的反向转发代理，主要用于加速github的国内访问。但是限制了只能访问VMR相关的内容。完全免费。你也可以参考[这个项目](https://github.com/gaboolic/cloudflare-reverse-proxy)来部署自己的反向代理，然后给到VMR使用，这样可以大大降低公用反向代理的压力。
