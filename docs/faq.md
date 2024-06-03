@@ -24,3 +24,9 @@ In **$HOME/.vm/vmr.sh** or **$HOME/.vmr/vmr.fish**.
 ### 6. What is reverse proxy？
 
 **https://gvc.1710717.xyz/proxy/** is deployed on CloudFlare for github accelerations. It's totally free.
+
+### 7. How to lock the SDK version for a project? And how is it implemented?
+
+In the **TUI** of VMR, there is a region for showing key bindings, you'll find somthing like **lock version** there.
+Press the key that binds to version-locking, and you'll find a file named **.vmr.lock** is generated for current project.
+**VMR** hooks the **cd** command for bash/zsh/fish/powershell. When using **cd** in terminal, the hook will be executed, and the command **vmr use -E** is called.
