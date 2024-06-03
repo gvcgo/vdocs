@@ -1,5 +1,7 @@
 # Introduction
 
+ <div align=center><img src="https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_wordcloud.png" width="70%"></div>
+ 
 **VMR** is a simple, cross-platform, and well-designed version manager for multiple sdks and tools. It is totally created for general purpose.
 
 Maybe you've already heard of fnm, gvm, nvm, pyenv, phpenv, etc. However, none of them can manage multiple programming languages. Managers like asdf-vm support multiple languages, but only works on unix-like systems, and makes things look complicated. Therefore, **VMR** comes.
