@@ -2,6 +2,7 @@
 
 - [bun](https://bun.sh/)
 - [clang](https://clang.llvm.org/)
+- [clojure](https://clojure.org/)
 - [codon](https://github.com/exaloop/codon)
 - [deno](https://deno.com/)
 - [dlang](https://dlang.org/)
