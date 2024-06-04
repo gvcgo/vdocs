@@ -32,3 +32,7 @@
 在VMR的**TUI**中，区域2是按键功能提示区，留意看一下，会发现有提示lock version的按键，即可针对当前项目锁定选择的SDK版本，锁定版本之后，会在当前项目下生成一个叫做 **.vmr.lock** 的文件。该文件支持对同一个项目，锁定多个SDK的版本。比如，你可以同时锁定python和node的版本等等。
 
 锁定版本的原理是，在bash/zsh/fish/powershell中，VMR分别配置了cd命令的hook，当在终端使用cd命令切换目录时，就会执行到该hook，该hook又会调用**vmr use -E**命令，从而检查当前目录是否在某个锁定版本的项目之中，然后打开新的终端session，临时切换版本。至于**vmr use -E**命令，用户无需关心。
+
+### 8. 安装一个SDK之后，当前终端没有找到相关命令？
+
+**VMR**默认不打开新的终端session，所以你需要使用source命令刷新一下环境变量。另外，**VMR**也为Windows用户贴心地提供了**source**命令，在**VMR**安装过程中就已经集成到系统powershell配置文件中，所以Windows用户也能愉快地使用source命令刷新PATH环境变量了。

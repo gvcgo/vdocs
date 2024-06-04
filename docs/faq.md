@@ -30,3 +30,7 @@ In **$HOME/.vm/vmr.sh** or **$HOME/.vmr/vmr.fish**.
 In the **TUI** of VMR, there is a region for showing key bindings, you'll find somthing like **lock version** there.
 Press the key that binds to version-locking, and you'll find a file named **.vmr.lock** is generated for current project.
 **VMR** hooks the **cd** command for bash/zsh/fish/powershell. When using **cd** in terminal, the hook will be executed, and the command **vmr use -E** is called.
+
+### 8. After the installation of an SDK，how should I found the related command？
+
+**VMR** do not open new terminal session by default, so, you need to use **source** command to refresh the envs for current terminal. On windows, **VMR** also customized the **source** command for users. It is integrated to the powershell config file during the installation process of **VMR**. And you can use **source** to refresh **PATH** env in any powershell session.
