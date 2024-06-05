@@ -7,6 +7,23 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+        --dark-base-background: #222;
+        --dark-base-color: #bbc0c4;
+        --dark-theme-color: var(--theme-color, #42b983);
+        --dark-code-color: var(--dark-color);
+        --dark-heading-color: var(--dark-theme-color);
+        --dark-cover-background: #000000a8;
+        --dark-code-background: #303030;
+        --dark-tip-background: #2c0000;
+        --dark-warn-background: #005842;
+        --dark-icon-size: 25px;
+        --dark-icon-transition: .1s ease-in-out .1s;
+        --dark-moon-color: #000000;
+        --dark-sun-color: #ffffff;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -37,7 +54,21 @@
         depth: 3,
         hideOtherSidebarContent: false, 
       },
-      auto2top: true
+      auto2top: true,
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
+      },
+      autoFooter: {
+        name:        "MoQsien",
+        url:         "https://github.com/moqsien",
+        copyYear:    "2024",
+        policy:      "https://github.com/gvcgo/version-manager?tab=MIT-1-ov-file#readme",
+        terms:       false,
+        cookies:     false,
+        customStyle: "sidebar"
+        }
     }
   </script>
   <!-- Docsify v4 -->
@@ -46,5 +77,9 @@
   <script src="//polyfill.io/v3/polyfill.min.js?features=String.prototype.normalize"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-sidebarfooter@latest"></script>
+  <script src="//cdn.jsdelivr.net/gh/LIGMATV/docsify-dark-switcher@latest/docsify-dark-switcher.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 </body>
 </html>

@@ -6,3 +6,4 @@
 * [使用方法](/zh-cn/usage "Version Manager使用方法")
 * [常见问题](/zh-cn/faq "Version Manager常见问题")
 * [演示](/zh-cn/gallery "Version Manager演示")
+<footer id="mb-footer"></footer>
