@@ -66,6 +66,7 @@
 - [acast](https://asciinema.org/)
 - [agg](https://github.com/asciinema/agg)
 - [cmake](https://cmake.org/)
+- [ffmpeg](https://ffmpeg.org/)
 - [git-win](https://git-scm.com/)
 - [gsudo](https://gerardog.github.io/gsudo/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
