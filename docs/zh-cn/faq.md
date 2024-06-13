@@ -36,3 +36,7 @@
 ### 8. 安装一个SDK之后，当前终端没有找到相关命令？
 
 **VMR**默认不打开新的终端session，所以你需要使用source命令刷新一下环境变量。另外，**VMR**也为Windows用户贴心地提供了**source**命令，在**VMR**安装过程中就已经集成到系统powershell配置文件中，所以Windows用户也能愉快地使用source命令刷新PATH环境变量了。
+
+### 9. 为啥部分Windows下的SDK无法运行？
+
+例如，Windows下的agg, php等等。可能是缺少**Microsoft Visual C++ Redistributable**，可以到官网[下载](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)安装。

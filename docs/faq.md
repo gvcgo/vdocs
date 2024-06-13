@@ -34,3 +34,7 @@ Press the key that binds to version-locking, and you'll find a file named **.vmr
 ### 8. After the installation of an SDK，how should I found the related command？
 
 **VMR** do not open new terminal session by default, so, you need to use **source** command to refresh the envs for current terminal. On windows, **VMR** also customized the **source** command for users. It is integrated to the powershell config file during the installation process of **VMR**. And you can use **source** to refresh **PATH** env in any powershell session.
+
+### 9. Why some of the SDKs on Windows can not run properly？
+
+For example, agg, php, etc. It may be caused by lacking of **Microsoft Visual C++ Redistributable**. You can download it from [here](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).
