@@ -6,7 +6,7 @@
 复制以下命令，并在终端中执行。
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.preview.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
 ```
 
 如果你访问github.com比较慢，可以使用以下命令。
