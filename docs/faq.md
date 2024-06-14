@@ -38,3 +38,10 @@ Press the key that binds to version-locking, and you'll find a file named **.vmr
 ### 9. Why some of the SDKs on Windows can not run properly？
 
 For example, agg, php, etc. It may be caused by lacking of **Microsoft Visual C++ Redistributable**. You can download it from [here](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).
+
+### 10. What are Session Mode or Global Mode?
+
+![session_mode](https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/session_mode.png
+)
+1. Global Mode: Add envs to **$HOME/.vmr/vmr.sh** or  **$HOME/.vmr/vmr.fish**.
+2. Session Mode: Add envs only to current new session, **no persistent storage**.

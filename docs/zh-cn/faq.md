@@ -40,3 +40,10 @@
 ### 9. 为啥部分Windows下的SDK无法运行？
 
 例如，Windows下的agg, php等等。可能是缺少**Microsoft Visual C++ Redistributable**，可以到官网[下载](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170)安装。
+
+### 10. 什么是Session模式和Global模式?
+
+![session_mode](https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/session_mode.png
+)
+1. Global模式: 会自动持久化环境变量到**$HOME/.vmr/vmr.sh** 或者  **$HOME/.vmr/vmr.fish**.
+2. Session模式: 不会持久化环境变量，只会新开一个终端session，然后向新的session中临时添加环境变量，session关闭之后失效。
