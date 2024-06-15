@@ -65,7 +65,7 @@ vmr
 
 ### Why "No SDK Found"?
 
-You need to set a proxy or reverse proxy, see [here](https://gvcgo.github.io/vdocs/#/usage?id=set-a-proxy).
+You need to set a proxy or reverse proxy, see [here](https://docs.vmr.us.kg/#/usage?id=set-a-proxy).
 
 ## Update VMR
 ### Method 1

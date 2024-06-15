@@ -65,7 +65,7 @@ vmr
 
 ### 无法显示SDK列表?
 
-你需要设置代理(http或者socks5)；或者你也可以设置由VMR提供的免费反向代理，详见[这里](https://gvcgo.github.io/vdocs/#/zh-cn/usage?id=%e8%ae%be%e7%bd%ae%e4%bb%a3%e7%90%86)。
+你需要设置代理(http或者socks5)；或者你也可以设置由VMR提供的免费反向代理，详见[这里](https://docs.vmr.us.kg/#/zh-cn/usage?id=%e8%ae%be%e7%bd%ae%e4%bb%a3%e7%90%86)。
 
 ## 更新
 ### 方法一
