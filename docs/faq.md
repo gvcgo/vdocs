@@ -40,7 +40,7 @@ They are the ways how an SDK is installed or used.
 - For Session Mode, a new terminal session is opened, and envs are added to this session without saving to any files. When the session is closed, these envs become invalid.
 - For Global Mode, envs are added to related files and will take effect for all new terminal sessions.
 
-You need to keep an eye on the **key map** hints in TUI of VMR for these modes.
+You need to pay attention to the **key map** hints in TUI of VMR for these modes.
 
 ### 7. How to lock the SDK version for a project? And how is it implemented?
 
