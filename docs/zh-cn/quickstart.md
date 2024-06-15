@@ -44,12 +44,28 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 $HOME/.vmr/
 ```
 
+### Unix-like系统下，环境变量放在哪里?
+
+```bash
+$HOME/.vmr/vmr.sh 或 $HOME/.vmr/vmr.fish
+```
+
 ### 可以指定SDK的安装目录吗？
 
 可以。在首次安装**VMR**的时候，会提示你设置**SDK Installation Dir**，这时候在输入框中输入你想要定制的SDK安装路径即可。
 如果你不小心输入错误了，你也可以在 **$HOME/.vmr/config.toml** 配置文件中手动修改。
 
 ![installation](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install_dir.png)
+
+### 如何打开TUI?
+
+```bash
+vmr
+```
+
+### 无法显示SDK列表?
+
+你需要设置代理(http或者socks5)；或者你也可以设置由VMR提供的免费反向代理，详见[这里](https://gvcgo.github.io/vdocs/#/zh-cn/usage?id=%e8%ae%be%e7%bd%ae%e4%bb%a3%e7%90%86)。
 
 ## 更新
 ### 方法一

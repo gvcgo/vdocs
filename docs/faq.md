@@ -2,46 +2,64 @@
 
 ### 1. How to use?
 
-See help inof with **vmr -h**.
-See help info for subcommand with **vmr subcommand -h**.
+- Open TUI for VMR with **vmr**.
+- See help inof with **vmr -h**.
+- See help info for subcommand with **vmr subcommand -h**.
 
 ### 2. How to change installation path for SDKs after installation?
 
 You can edit the config file **$HOME/.vmr/config.toml**.
 
-### 3. Why download SDK fails?
+### 3. Where are the envs restored for Unix-like systems?
 
-Try to set the **reverse proxy**.
+```bash
+$HOME/.vmr/vmr.sh or $HOME/.vmr/vmr.fish
+```
 
-### 4. Is it safe to use **VMR**?
+### 4. Why download SDK fails? Why No SDK Found?
 
-Of course. All the SDKs are downloaded from the official websites or github releases. You can check the version info [here](https://github.com/gvcgo/vsources).
+Lots of resources required by VMR are from github, which seems to be blocked in China. Solutions are:
 
-### 5. Where does **VMR** store the envs for SDKs?
+- Set your own proxy with command **vmr sp "http://localhost:xxx or socks5://localhost:xxx"**.
+- Set reverse proxy provided by VMR with command **vmr sr "https://gvc.1710717.xyz/proxy/"**.
+- For SDKs using conda, you can set other mirrors instead of the official one, such as [tsinghua](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/?eqid=b45767b90013072c00000005649051db).
 
-In **$HOME/.vm/vmr.sh** or **$HOME/.vmr/vmr.fish**.
+if a proxy or reverse proxy is added, and VMR still respond slowly, you can try to modify the **VersionHostUrl** as **https://gitee.com/moqsien/vsources/raw/main** in config file of VMR.
 
-### 6. What is reverse proxy？
+
+### 5. What is reverse proxy？
 
 **https://gvc.1710717.xyz/proxy/** is deployed on CloudFlare for github accelerations. It's totally free.
+
+You can also deploy your own reverse proxy according to this [repo](https://github.com/gaboolic/cloudflare-reverse-proxy).
+
+### 6. What are Session Mode and Global Mode?
+
+They are the ways how an SDK is installed or used.
+
+- For Session Mode, a new terminal session is opened, and envs are added to this session without saving to any files. When the session is closed, these envs become invalid.
+- For Global Mode, envs are added to related files and will take effect for all new terminal sessions.
+
+You need to keep an eye on the **key map** hints in TUI of VMR for these modes.
 
 ### 7. How to lock the SDK version for a project? And how is it implemented?
 
 In the **TUI** of VMR, there is a region for showing key bindings, you'll find somthing like **lock version** there.
+
 Press the key that binds to version-locking, and you'll find a file named **.vmr.lock** is generated for current project.
 **VMR** hooks the **cd** command for bash/zsh/fish/powershell. When using **cd** in terminal, the hook will be executed, and the command **vmr use -E** is called.
 
 ### 8. After the installation of an SDK，how should I found the related command？
 
-**VMR** do not open new terminal session by default, so, you need to use **source** command to refresh the envs for current terminal. On windows, **VMR** also customized the **source** command for users. It is integrated to the powershell config file during the installation process of **VMR**. And you can use **source** to refresh **PATH** env in any powershell session.
+**VMR** do not open new terminal session by default, so, you need to use **source** command to refresh the envs for current terminal. 
+
+On windows, **VMR** also customized the **source** command for users. It is integrated to the powershell config file during the installation process of **VMR**. And you can use **source** to refresh **PATH** env in any powershell session.
 
 ### 9. Why some of the SDKs on Windows can not run properly？
 
 For example, agg, php, etc. It may be caused by lacking of **Microsoft Visual C++ Redistributable**. You can download it from [here](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
-### 10. What are Session Mode or Global Mode?
 
-![session_mode](https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/session_mode.png
-)
-1. Global Mode: Add envs to **$HOME/.vmr/vmr.sh** or  **$HOME/.vmr/vmr.fish**.
-2. Session Mode: Add envs only to current new session, **no persistent storage**.
+### 10. Is it safe to use **VMR**?
+
+Of course. All the SDKs are downloaded from the official websites or github releases. You can check the version info [here](https://github.com/gvcgo/vsources).

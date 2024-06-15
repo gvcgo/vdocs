@@ -45,11 +45,27 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 $HOME/.vmr/
 ```
 
+### Where are envs restored on Unix-like systems?
+
+```bash
+$HOME/.vmr/vmr.sh 或 $HOME/.vmr/vmr.fish
+```
+
 ### Can I customize the installation Dir for SDKs?
 
 Of course. When you are installing VMR for the first time, a hint will prompt asking for customizing your **SDK Installation Dir**, you can just enter the path you want. If you've just input a wrong path, you can manually modify it in **$HOME/.vmr/config.toml**. 
 
 ![installation](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install_dir.png)
+
+### How to use TUI?
+
+```bash
+vmr
+```
+
+### Why "No SDK Found"?
+
+You need to set a proxy or reverse proxy, see [here](https://gvcgo.github.io/vdocs/#/usage?id=set-a-proxy).
 
 ## Update VMR
 ### Method 1
