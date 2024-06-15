@@ -40,6 +40,9 @@ VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github�
 - Session模式下，VMR不会自动持久化相关环境变量到文件中，而是打开一个新的终端Session，将相关SDK的环境变量临时添加到这个Session中，当Session关闭之后，环境变量会自动失效。
 - Global模式下，VMR会自动持久化环境变量到文件中，这样的环境变量才是永久有效的。
 
+注意TUI中的key map提示，如下图所示。即为通过不同模式安装SDK。
+![key_map](https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/key_map.png)
+
 **在安装、切换SDK版本时，注意key map中的提示，根据自己的需要，选择Session或者Global模式**。
 
 ### 7. 如何针对项目锁定SDK版本？实现原理是什么？
