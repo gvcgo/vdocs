@@ -4,12 +4,6 @@
 ### For MacOS/Linux
 
 Run the command below in terminal.
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
-```
-
-Use Following command when **github.com** happens to be slow.
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
 ```
