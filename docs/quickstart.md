@@ -11,7 +11,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/ver
 
 Use Following command when **github.com** happens to be slow.
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
 ```
 
 ### For Windows
@@ -19,13 +19,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://proxy.vmr.us.kg/proxy/https://raw.g
 Run the command below in powershell.
 
 ```bash
-powershell -c "irm https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
-```
-
-Use following command when **github.com** happens to be slow.
-
-```bash
-powershell -c "irm https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
+powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 ```
     
 

@@ -6,26 +6,14 @@
 复制以下命令，并在终端中执行。
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
-```
-
-如果你访问github.com比较慢，可以使用以下命令。
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
 ```
 
 ### Windows下的安装
 
 复制以下命令，并在Powershell中执行。
 ```bash
-powershell -c "irm https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
-```
-
-如果你访问github.com比较慢，可以使用以下命令。
-
-```bash
-powershell -c "irm https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
+powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 ```
 
 !> 使用go源码编译得到的Windows可执行文件，经常被windows的defender**误报**为病毒，详见[go语言官方的解释](https://go.dev/doc/faq#virus)。 为了解决这个问题，**VMR**使用**osslsigncode**对windows可执行文件进行了签名，但无法保证一定没有误报。如果仍然出现误报，请手动添加和**VMR**有关的文件夹到信任列表，或者尝试下载**VMR**的[签名证书](https://github.com/gvcgo/version-manager/blob/main/scripts/vmr.pfx)进行安装。
