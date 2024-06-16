@@ -1,7 +1,7 @@
 # VMR数据流
 
-<!-- https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install.png -->
-![vmr_flow.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_flow.png)
+<!-- https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install.png -->
+![vmr_flow.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_flow.png)
 
 - [vcollector](https://github.com/gvcgo/vcollector) 收集版本信息并上传到 **resources** 仓库。
 - [vsources](https://github.com/gvcgo/vsources) 存储版本信息。

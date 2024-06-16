@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_logo_trans.png)
+![logo](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_logo_trans.png)
 
 # 0.6.x
 

@@ -35,7 +35,7 @@ Use "vmr [command] --help" for more information about a command.
 ### Set reverse proxy.
 
 ```bash
-vmr sr "https://gvc.1710717.xyz/proxy/"
+vmr sr "https://proxy.vmr.us.kg/proxy/"
 ```
 
 ### Set local proxy.
@@ -50,33 +50,33 @@ vmr sp "http://localhost:xxx or socks5://localhost:xxx"
 ```bash
 vmr
 ```
-![sdk_list.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_list.png)
+![sdk_list.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_list.png)
 
 - 1: Enter keyword to search for an SDK name.
 - 2: Key map for next step.
 - 3: SDK name list.
 
 ### Search SDK name by keyword.
-![sdk_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_search.png)
+![sdk_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_search.png)
 
 Same as above.
 
 ### Show SDK version list.
-![sdk_version.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_list.png)
+![sdk_version.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_list.png)
 
 Same as above.
 
 ### Search version by keyword.
-![version_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_search.png)
+![version_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_search.png)
 
 Same as above.
 
 ### Show installed list.
-![local_list.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_list.png)
+![local_list.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_list.png)
 
 Same as above.
 
 ### Search installed version by keyword.
-![local_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_search.png)
+![local_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_search.png)
 
 Same as above.

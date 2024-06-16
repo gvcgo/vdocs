@@ -22,14 +22,14 @@ $HOME/.vmr/vmr.sh 或者 $HOME/.vmr/vmr.fish
 VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github，而国内github访问受限，导致下载速度慢。解决方法如下：
 
 - 使用**vmr sp "http://localhost:xxx or socks5://localhost:xxx"** 设置你自己的代理。
-- 使用**vmr sr "https://gvc.1710717.xyz/proxy/"** 设置VMR提供的反向代理，加速github相关的下载。
+- 使用**vmr sr "https://proxy.vmr.us.kg/proxy/"** 设置VMR提供的反向代理，加速github相关的下载。
 - 对于依赖于conda的SDK，为了加速安装，可以配置国内的conda源，例如[清华源](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/?eqid=b45767b90013072c00000005649051db)。
 
 如果添加了代理，获取**SDK列表**时仍然比较慢，你也可以在vmr的配置文件中设置**VersionHostUrl**为**https://gitee.com/moqsien/vsources/raw/main**。
 
 ### 5. 什么是反向代理？
 
-**https://gvc.1710717.xyz/proxy/** 是一个部署在CloudFlare上的反向转发代理，主要用于加速github的国内访问。但是限制了只能访问VMR相关的内容。完全免费。
+**https://proxy.vmr.us.kg/proxy/** 是一个部署在CloudFlare上的反向转发代理，主要用于加速github的国内访问。但是限制了只能访问VMR相关的内容。完全免费。
 
 你也可以参考[这个项目](https://github.com/gaboolic/cloudflare-reverse-proxy)来部署自己的反向代理，然后给到VMR使用，这样可以大大降低公用反向代理的压力。
 

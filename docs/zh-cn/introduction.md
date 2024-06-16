@@ -1,6 +1,6 @@
 # vmr简介
 
- <div align=center><img src="https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_wordcloud.png" width="70%"></div>
+ <div align=center><img src="https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_wordcloud.png" width="70%"></div>
 
 
 **VMR** 是一款简单，跨平台，且经过良好设计的版本管理器，用于管理多种SDK以及其他工具。它完全是为了通用目的而创建的。

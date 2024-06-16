@@ -11,7 +11,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/gvcgo/ver
 
 Use Following command when **github.com** happens to be slow.
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.sh | sh
 ```
 
 ### For Windows
@@ -25,7 +25,7 @@ powershell -c "irm https://raw.githubusercontent.com/gvcgo/version-manager/main/
 Use following command when **github.com** happens to be slow.
 
 ```bash
-powershell -c "irm https://gvc.1710717.xyz/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
+powershell -c "irm https://proxy.vmr.us.kg/proxy/https://raw.githubusercontent.com/gvcgo/version-manager/main/scripts/install.preview.ps1 | iex"
 ```
     
 
@@ -55,7 +55,7 @@ $HOME/.vmr/vmr.sh 或 $HOME/.vmr/vmr.fish
 
 Of course. When you are installing VMR for the first time, a hint will prompt asking for customizing your **SDK Installation Dir**, you can just enter the path you want. If you've just input a wrong path, you can manually modify it in **$HOME/.vmr/config.toml**. 
 
-![installation](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install_dir.png)
+![installation](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_install_dir.png)
 
 ### How to use TUI?
 

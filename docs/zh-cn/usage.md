@@ -35,7 +35,7 @@ Use "vmr [command] --help" for more information about a command.
 ### 设置反向代理
 
 ```bash
-vmr sr "https://gvc.1710717.xyz/proxy/"
+vmr sr "https://proxy.vmr.us.kg/proxy/"
 ```
 
 ### 设置本地代理
@@ -51,7 +51,7 @@ vmr sp "http://localhost:xxx or socks5://localhost:xxx"
 ```bash
 vmr
 ```
-![sdk_list.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_list.png)
+![sdk_list.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_list.png)
 
 - 区域1: 输入关键字进行搜索。
 - 区域2: 关于下一步的快捷键提示。
@@ -59,26 +59,26 @@ vmr
 
 ### 使用关键字搜索SDK
 **注意**：只支持从头开始匹配。
-![sdk_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_search.png)
+![sdk_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_search.png)
 
 同上。
 
 ### 展示版本列表
-![sdk_version.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_list.png)
+![sdk_version.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_list.png)
 
 同上。
 
 ### 通过关键字搜索版本号
-![version_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_search.png)
+![version_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_version_search.png)
 
 同上。
 
 ### 展示已安装的版本
-![local_list.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_list.png)
+![local_list.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_list.png)
 
 同上。
 
 ### 搜索已安装的版本
-![local_search.png](https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_search.png)
+![local_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_local_search.png)
 
 同上。

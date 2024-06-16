@@ -21,7 +21,7 @@ $HOME/.vmr/vmr.sh or $HOME/.vmr/vmr.fish
 Lots of resources required by VMR are from github, which seems to be blocked in China. Solutions are:
 
 - Set your own proxy with command **vmr sp "http://localhost:xxx or socks5://localhost:xxx"**.
-- Set reverse proxy provided by VMR with command **vmr sr "https://gvc.1710717.xyz/proxy/"**.
+- Set reverse proxy provided by VMR with command **vmr sr "https://proxy.vmr.us.kg/proxy/"**.
 - For SDKs using conda, you can set other mirrors instead of the official one, such as [tsinghua](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/?eqid=b45767b90013072c00000005649051db).
 
 if a proxy or reverse proxy is added, and VMR still respond slowly, you can try to modify the **VersionHostUrl** as **https://gitee.com/moqsien/vsources/raw/main** in config file of VMR.
@@ -29,7 +29,7 @@ if a proxy or reverse proxy is added, and VMR still respond slowly, you can try 
 
 ### 5. What is reverse proxy？
 
-**https://gvc.1710717.xyz/proxy/** is deployed on CloudFlare for github accelerations. It's totally free.
+**https://proxy.vmr.us.kg/proxy/** is deployed on CloudFlare for github accelerations. It's totally free.
 
 You can also deploy your own reverse proxy according to this [repo](https://github.com/gaboolic/cloudflare-reverse-proxy).
 
