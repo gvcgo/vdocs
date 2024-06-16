@@ -42,7 +42,7 @@ They are the ways how an SDK is installed or used.
 
 You need to pay attention to the **key map** hints in TUI of VMR for these modes.
 
-![key_map](https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/key_map.png)
+![key_map](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/conf_backup@main/key_map.png)
 
 ### 7. How to lock the SDK version for a project? And how is it implemented?
 
