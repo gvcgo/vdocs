@@ -54,7 +54,7 @@ vmr
 
 - 1: Enter keyword to search for an SDK name.
 - 2: Key map for next step.
-- 3: SDK name list.
+- 3: SDK name list(If **3** does not show any item, you probably need to resize the terminal window.).
 
 ### Search SDK name by keyword.
 ![sdk_search.png](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_sdk_search.png)
