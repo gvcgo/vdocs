@@ -1,10 +1,10 @@
 <!-- docs/_sidebar.md -->
 * [Introduction](introduction "Introduction to Version Manager.")
 * [QuickStart](quickstart "QuickStart for Version Manager.")
-* [SDK list](sdklist "SDKs supported by Version Manager")
-* [Data flow](flow "Version Manager Data Flow")
 * [Usage](usage "How to use Version Manager")
 * [FAQs](faq "Version Manager FAQs")
+* [SDK list](sdklist "SDKs supported by Version Manager")
+* [Data flow](flow "Version Manager Data Flow")
 * [Gallery](gallery "Version Manager Gallery")
 <footer id="mb-footer">
   <div class="footer-container">

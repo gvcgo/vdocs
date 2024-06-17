@@ -4,6 +4,7 @@
 - [clang](https://clang.llvm.org/)
 - [clojure](https://clojure.org/)
 - [codon](https://github.com/exaloop/codon)
+- [crystal](https://crystal-lang.org/)
 - [deno](https://deno.com/)
 - [dlang](https://dlang.org/)
 - [dotnet](https://dotnet.microsoft.com/)

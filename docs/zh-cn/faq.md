@@ -33,6 +33,7 @@ VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github�
 
 你也可以参考[这个项目](https://github.com/gaboolic/cloudflare-reverse-proxy)来部署自己的反向代理，然后给到VMR使用，这样可以大大降低公用反向代理的压力。
 
+**注意**：反向代理，在国内的晚间使用时，可能会相对慢一些，如果想要速度快，请尽量在白天使用。
 
 ### 6. 什么是Session模式和Global模式？
 
