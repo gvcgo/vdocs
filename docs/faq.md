@@ -64,4 +64,6 @@ For example, agg, php, etc. It may be caused by lacking of **Microsoft Visual C+
 
 ### 10. Is it safe to use **VMR**?
 
-Of course. All the SDKs are downloaded from the official websites or github releases. You can check the version info [here](https://github.com/gvcgo/vsources).
+Of course. All the SDKs are downloaded from the **official websites**, or **github releases**, or **Anaconda Forge**. 
+VMR at now is not planning to provide anything like compilation from source code since stability issues cannot be avoided.
+You can also check the version info [here](https://github.com/gvcgo/vsources).

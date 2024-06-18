@@ -63,5 +63,6 @@ VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github�
 
 ### 10. 下载源安全吗？
 
-安全。所有资源均来自各种SDK的官方下载链接或者github仓库的release。
+安全。所有资源均来自各种SDK的**官方下载链接**，或者**github仓库的release**，或者**Anaconda的官方构建仓库**。
+VMR暂时不会提供通过源码编译的功能，因为稳定性无法得到保证。
 你可以在 [这里](https://github.com/gvcgo/vsources) 查看所有的版本SDK信息，包括具体SDK的下载地址。
