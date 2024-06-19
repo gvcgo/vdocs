@@ -12,7 +12,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
 
 Run the command below in powershell.
 
-```bash
+```powershell
 powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 ```
 

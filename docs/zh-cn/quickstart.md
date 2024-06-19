@@ -12,7 +12,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://scripts.vmr.us.kg | sh
 ### Windows下的安装
 
 复制以下命令，并在Powershell中执行。
-```bash
+
+```powershell
 powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 ```
 
