@@ -15,7 +15,7 @@ Run the command below in powershell.
 ```bash
 powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 ```
-    
+
 !> Binaries built from go source code shows Virus **False Positive** somehow on Windows. You can learn that from go official website, see [here](https://go.dev/doc/faq#virus). **VMR** is signed by **osslsigncode** to avoid this annoying situation. However, we cannot ensure that **False Positive** will never happen. In case of **False Positive**, you can manually add the **VMR** directory to your **Trusted** directory, or try to install the certificate [here](https://github.com/gvcgo/version-manager/blob/main/scripts/vmr.pfx).
 
 !> **VMR** customized command **source** for refreshing **Path** env in current powershell.
