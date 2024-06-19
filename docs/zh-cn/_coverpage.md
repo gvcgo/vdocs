@@ -13,5 +13,5 @@
 - 无需插件，开箱即用。
 - 更快，更简单，更稳定。
 
-[GitHub](https://github.com/gvcgo/version-manager)
+[去点亮Star](https://github.com/gvcgo/version-manager)
 [快速开始](/zh-cn/quickstart)

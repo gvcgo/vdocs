@@ -13,5 +13,5 @@
 - No plugins.
 - Faster & Easier & Stabler.
 
-[GitHub](https://github.com/gvcgo/version-manager)
+[Star on GitHub](https://github.com/gvcgo/version-manager)
 [Get Started](/quickstart)
