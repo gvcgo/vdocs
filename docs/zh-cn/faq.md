@@ -66,3 +66,9 @@ VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github�
 安全。所有资源均来自各种SDK的**官方下载链接**，或者**github仓库的release**，或者**Anaconda的官方构建仓库**。
 VMR暂时不会提供通过源码编译的功能，因为稳定性无法得到保证。
 你可以在 [这里](https://github.com/gvcgo/vsources) 查看所有的版本SDK信息，包括具体SDK的下载地址。
+
+### 11. 为什么一直反复出现"Extract file failed"错误提示，无法安装某个SDK版本？
+
+这出现在Windows上面的可能性比较多一点，因为有些Windows下面由于权限之类的，无法删除下载了一半的文件，导致了该问题的出现。
+尝试**清理掉VMR关于该SDK的缓存** 或者 **手动到cache文件夹下删除相关版本的缓存即可**，然后重新安装。
+![clear_cache](https://cdn.jsdelivr.net/gh/moqsien/moqsien/img_repo@main/vmr_clear_cache.png)
