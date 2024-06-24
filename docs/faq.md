@@ -72,4 +72,4 @@ You can also check the version info [here](https://github.com/gvcgo/vsources).
 
 This may occur on windows. Try to **clear the cached files** in the **cache dir** for the SDK, and try to install the SDK again.
 
-![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/moqsien/img_repo@main/vmr_clear_cache.png)
+![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_clear_cache.png)

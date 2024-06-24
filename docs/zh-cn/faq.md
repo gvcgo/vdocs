@@ -72,4 +72,4 @@ VMR暂时不会提供通过源码编译的功能，因为稳定性无法得到�
 这出现在Windows上面的可能性比较多一点，因为有些Windows下面由于权限之类的，无法删除下载了一半的文件，导致了该问题的出现。
 尝试**清理掉VMR关于该SDK的缓存** 或者 **手动到cache文件夹下删除相关版本的缓存即可**，然后重新安装。
 
-![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/moqsien/img_repo@main/vmr_clear_cache.png)
+![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_clear_cache.png)
