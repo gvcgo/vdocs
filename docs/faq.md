@@ -71,4 +71,5 @@ You can also check the version info [here](https://github.com/gvcgo/vsources).
 ### 11. "Extract file failed" error occurs over and over again?
 
 This may occur on windows. Try to **clear the cached files** in the **cache dir** for the SDK, and try to install the SDK again.
-![clear_cache](https://cdn.jsdelivr.net/gh/moqsien/moqsien/img_repo@main/vmr_clear_cache.png)
+
+![clear_cache](https://proxy.vmr.us.kg/proxy/https://github.com/moqsien/moqsien/img_repo/raw/main/vmr_clear_cache.png)
