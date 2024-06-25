@@ -27,6 +27,22 @@ powershell -c "irm https://scripts.vmr.us.kg/windows | iex"
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 ```
 
+### 国内用户安装太慢怎么办？
+
+这与GFW有关，你可以使用代理。
+
+- MacOS或Linux下终端使用代理。
+```bash
+export ALL_PROXY="http://127.0.0.1:xxxx"
+# export ALL_PROXY="socks5://127.0.0.1:xxxx"
+```
+
+- Windows的Powershell中使用代理。
+```powershell
+$env:all_proxy="http://127.0.0.1:xxxx"
+# $env:all_proxy="socks5://127.0.0.1:xxxx"
+```
+
 ### VMR安装在哪里？
 
 ```bash
@@ -54,7 +70,7 @@ vmr
 
 ### 无法显示SDK列表?
 
-你需要设置代理(http或者socks5)；或者你也可以设置由VMR提供的免费反向代理，详见[这里](https://docs.vmr.us.kg/#/zh-cn/usage?id=%e8%ae%be%e7%bd%ae%e4%bb%a3%e7%90%86)。
+你需要设置代理(http或者socks5)；或者你也可以设置由VMR提供的免费反向代理，详见[这里](https://docs.vmr.us.kg/#/zh-cn/usage?id=%e8%ae%be%e7%bd%ae%e4%bb%a3%e7%90%86)。 **强烈建议使用自己的代理，因为反向代理不一定稳定，容易被墙** 。
 
 ## 更新
 ### 方法一

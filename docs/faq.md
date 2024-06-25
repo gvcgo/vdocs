@@ -18,7 +18,7 @@ $HOME/.vmr/vmr.sh or $HOME/.vmr/vmr.fish
 
 ### 4. Why download SDK fails? Why No SDK Found?
 
-Lots of resources required by VMR are from github, which seems to be blocked in China. Solutions are:
+Lots of resources required by VMR are from github, which seems to be slow in China. Solutions are:
 
 - Set your own proxy with command **vmr sp "http://localhost:xxx or socks5://localhost:xxx"**.
 - Set reverse proxy provided by VMR with command **vmr sr "https://proxy.vmr.us.kg/proxy/"**.
