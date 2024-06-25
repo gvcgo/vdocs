@@ -31,13 +31,13 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 
 这与GFW有关，你可以使用代理。
 
-- MacOS或Linux下终端使用代理。
+- MacOS或Linux下终端开启代理。
 ```bash
 export ALL_PROXY="http://127.0.0.1:xxxx"
 # export ALL_PROXY="socks5://127.0.0.1:xxxx"
 ```
 
-- Windows的Powershell中使用代理。
+- Windows的Powershell中开启代理。
 ```powershell
 $env:all_proxy="http://127.0.0.1:xxxx"
 # $env:all_proxy="socks5://127.0.0.1:xxxx"
