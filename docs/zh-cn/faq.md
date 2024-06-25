@@ -67,9 +67,18 @@ VMR的很多资源，包括版本信息仓库和VMR安装包，都来自github�
 VMR暂时不会提供通过源码编译的功能，因为稳定性无法得到保证。
 你可以在 [这里](https://github.com/gvcgo/vsources) 查看所有的版本SDK信息，包括具体SDK的下载地址。
 
-### 11. 为什么一直反复出现"Extract file failed"错误提示，无法安装某个SDK版本？
+### 11. 如何设置多线程下载？
 
-这出现在Windows上面的可能性比较多一点，因为有些Windows下面由于权限之类的，无法删除下载了一半的文件，导致了该问题的出现。
-尝试**清理掉VMR关于该SDK的缓存** 或者 **手动到cache文件夹下删除相关版本的缓存即可**，然后重新安装。
+```bash
+# 设置下载线程数为2，默认为1
+vmr st 2
+```
 
-![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_clear_cache.png)
+### 12. 如何开启/关闭自定义下载源？
+
+自定义源存放于$HOME/.vmr/customed_mirrors.toml中。主要用于替换vsoure中的下载源，以达到加速下载的目的。前提是你自己知道更快速的下载源。
+
+```bash
+# 开启/关闭自定义下载源
+vmr tm
+```

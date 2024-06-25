@@ -68,8 +68,18 @@ Of course. All the SDKs are downloaded from the **official websites**, or **gith
 VMR at now is not planning to provide anything like compilation from source code since stability issues cannot be avoided.
 You can also check the version info [here](https://github.com/gvcgo/vsources).
 
-### 11. "Extract file failed" error occurs over and over again?
+### 11. How to enable multi-thread download?
 
-This may occur on windows. Try to **clear the cached files** in the **cache dir** for the SDK, and try to install the SDK again.
+```bash
+# Set thread number to 2.
+vmr st 2
+```
 
-![clear_cache](https://proxy.vmr.us.kg/proxy/https://cdn.jsdelivr.net/gh/moqsien/img_repo@main/vmr_clear_cache.png)
+### 12. How to toggle customized mirrors?
+
+Customized mirror is restored in $HOME/.vmr/customed_mirrors.toml, which allows you to use the download resources in your country. It is mainly for speeding up the downloads.
+
+```bash
+# Toggle customized mirrors.
+vmr tm
+```

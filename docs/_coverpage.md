@@ -10,6 +10,7 @@
 - Supports locking SDK version for each project.
 - Supports MacOS/Windows/Linux.
 - Interactive & Intuitive TUI.
+- Supports proxy, multi-threads download, customized mirrors.
 - No plugins.
 - Faster & Easier & Stabler.
 
